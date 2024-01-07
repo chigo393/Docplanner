@@ -186,7 +186,6 @@ color: aquamarine;
     grid-template-columns: 200px 200px 200px 200px;
     grid-template-rows: 200px 200px 200px 200px;
     justify-content: center;
-
 }
 
 .grid-container  p{
@@ -208,6 +207,7 @@ color: aquamarine;
 }
 
 button{
+    position: relative;
     margin-left: 120px;
     background-color: #3d83df;
     color: #fff;
@@ -222,6 +222,7 @@ button{
     letter-spacing: 0.04em;
     font-size: 12px;
     width: 150px;
+    bottom: 30px;
 }
 
 .control-id14 {
