@@ -1,0 +1,231 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+
+.navtools{
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    gap: 1.5rem;
+}
+#content > .upper {
+    padding-top: 100px;
+    /* border: solid; */
+}
+
+.upper > img {
+    padding-left: 900px;
+}
+
+.upper > h2 {
+    color: #00b39b;
+    font-size: 3.29rem;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.write h4 {
+    width: 500px;
+    display: flex;
+    padding-left: 300px;
+    color: #747474;
+}
+
+.write{
+    display: inline-flex;
+}
+
+.box1 {
+    border: solid;
+    background-color: #00ccb1;
+    border-radius: 20px;
+}
+
+.box2 {
+    border: solid;
+    background-color: #3d83df;
+    border-radius: 20px;
+}
+
+.box3 {
+    border: solid;
+    background-color: #1b2734;
+    border-radius: 20px;
+}
+
+.boxes{
+    display: flex;
+    color: aliceblue;
+    padding-left: 400px;
+    width: auto;
+    height: 300px;
+    gap: 20px;
+    
+}
+
+.boxes h4 {
+    display: block;
+    
+    
+}
+.innerbox{
+    padding-left: 30px;
+    padding-top: 30px;
+    width: 300px;
+}
+
+.bigger{
+    display: flex;
+}
+
+.bigger > .culture > h3 {
+display: inline-block;
+padding-left: 500px;
+color: aquamarine;
+}
+
+.culture > h3 {
+    font-size: 1.625em;
+    margin: 0.25em 0 0.35em;
+    padding-right: 1em;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+}
+
+
+
+.grid-containers {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding-left: 300px;
+    column-gap: 50px;
+    row-gap: 50px;
+}
+
+.flex-container{
+    display: flex;
+    background-color: #088f59;
+    justify-content: end;
+    
+}
+
+.flex-container > div {
+    display: flexbox;
+    background-color: #f7f2f2;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+        
+}
+
+.TheBox{
+    background-color: #00b39b;
+    justify-content: center;
+    
+}
+
+.firstcontainer > h2 {
+    color: #00b39b;
+    
+}
+
+.containers{
+    justify-content: center;
+    text-align: center;
+}
+.containers > h1{
+    font-size: 2.1428571429em;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    text-align: center;
+}
+
+.TheBox{
+    background-color:#d0faf4;
+    display: flex;
+    gap: 100px;
+    justify-content: center; 
+}
+.firstcontainer{
+}
+
+.fourboxes{
+    display: flex;
+    height: 500px;
+}
+
+.first2{
+    
+}
+
+#leader, #patients, #visits, #doctors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 250px;
+    border-radius: 2px;
+    margin: 20px;
+}
+
+.grid-container{
+    display: grid;
+    gap: 180px;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px;
+    justify-content: center;
+
+}
+
+.grid-container  p{
+    font-size: medium;
+    color: #747474;
+    font-family: Roboto, Arial, sans-serif;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+
+.end{
+    justify-content: center;
+    text-align: center;
+}
+.ending{
+    text-decoration: none;
+    text-align: center;
+}
+
+button{
+    margin-left: 120px;
+    background-color: #3d83df;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    border: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    font-size: 12px;
+    width: 150px;
+}
+
+.control-id14 {
+    background-color: #3d83df;
+    width: 200px;
+    margin-right: 100px;
+    

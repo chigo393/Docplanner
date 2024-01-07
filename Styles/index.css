@@ -1,0 +1,43 @@
+.grid-container{
+    display: grid;
+    gap: 150px;
+    margin: 20px;
+    grid-template-columns: 200px 200px 200px 200px;
+
+}
+
+.grid-container > div{
+    padding: 2px;
+    display: inline-block;
+}
+
+.TheBox{
+    border: solid;
+    background-color:#d0faf4;
+    display: flex;
+    gap: 100px;
+    justify-content: center; 
+}
+.firstcontainer{
+}
+
+.fourboxes{
+    display: flex;
+    height: 500px;
+}
+
+.first2{
+    
+}
+
+#leader, #patients, #visits, #doctors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 250px;
+    border-radius: 2px;
+    margin: 20px;
+}
